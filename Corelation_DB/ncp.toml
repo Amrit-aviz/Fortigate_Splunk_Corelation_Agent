@@ -1,0 +1,10 @@
+[project]
+name = "vodafone-agent-ing"
+version = "0.1.0"
+
+[build]
+entry_point = "agents/main_agent.py:agent"
+
+[platform]
+url = "https://10.4.4.174:9001"
+api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbXJpdCIsInNkayI6dHJ1ZSwiZXhwIjoxNzcxNzIwOTM4fQ.IeCG6TA1yWOusI22gVWhKrIZCXA0VWIAtpJLDli7oKM"
